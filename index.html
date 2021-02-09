@@ -13,14 +13,30 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+        </ul>
+
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door</i></p>
+            <a href="/login">Sign In / Sign Up</a>
+        </div>
+
+    </nav>
     <!-- Callout -->
-    <article class="container">
+    <article class="container mt-3">
         <div class="class">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>The finest whiskeys delivered to your doorstep!</h1>
                     <p class="lead">Sign up today to start recieving the world's best whiskeys every month.
-                        <s>£19.99</s>
+                        <s class="d-none d-sm-inline">£19.99</s>
+                        <span class="d-inline  d-sm-none"><br></span>
                         <strong><mark>First One is free</mark></strong></p>
                     <button class="btn btn-success btn-large">Sign up!</button>
                     <p class="text-muted"><small>You must be 18 or over to sign up to our service. Please drink
@@ -35,7 +51,7 @@
         <!-- Qoutes -->
         <section class="qoutes">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Quotes</h2>
                 </div>
             </div>
@@ -62,7 +78,7 @@
         <!-- Features -->
         <section class="features">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features!</h2>
                 </div>
             </div>
@@ -75,7 +91,7 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eius esse reiciendis, atque
                             excepturi quas voluptate et cumque, veritatis blanditiis, possimus vitae aspernatur pariatur
                             nemo quidem nihil provident incidunt hic.</p>
-                            <p><a class="btn btn-sm btm-light" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btm-light" href="">Read More</a></p>
                     </div>
                 </div>
 
@@ -85,7 +101,7 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae praesentium quos at
                             voluptate laborum omnis incidunt deserunt fugit minima ea, nisi provident? Possimus quam
                             exercitationem quae numquam qui aliquam ipsam?</p>
-                            <p><a class="btn btn-sm btm-light" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btm-light" href="">Read More</a></p>
                     </div>
                 </div>
 
@@ -95,7 +111,7 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos quo totam cumque quasi quaerat
                             corporis explicabo quisquam soluta maxime. Quos necessitatibus voluptatibus veniam provident
                             sunt voluptas magni officiis, accusantium velit!</p>
-                            <p><a class="btn btn-sm btm-light" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btm-light" href="">Read More</a></p>
                     </div>
                 </div>
             </div>
